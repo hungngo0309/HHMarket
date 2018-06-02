@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{4F8335AD-E6C8-4F84-B691-9547AEDC6B83}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="shopping/Controllers/UserController.cs">
+    <Files>
+      <File FileName="shopping/Views/User/Index.cshtml" Line="12" Column="12" />
+      <File FileName="shopping/Views/User/ShowUserList.cshtml" Line="10" Column="16" />
+      <File FileName="shopping/Controllers/UserController.cs" Line="37" Column="36" />
+      <File FileName="shopping/Startup.cs" Line="47" Column="45" />
+      <File FileName="shopping/ViewModels/UserList.cs" Line="12" Column="1" />
+      <File FileName="shopping/Models/User.cs" Line="18" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.shopping PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
