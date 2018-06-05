@@ -3,8 +3,14 @@ namespace shopping.Models
 {
     public class OrderDetail
     {
-        public int IdOrderDetail { get; set; }
-        public int IdOrder { get; set; }
+        public int OrderDetailId { get; set; }
+        public int OrderId { get; set; }
+        public ReviewComment reviewComment { get; set; }
+        public int status { get; set; }
+        public Product productionInfo;
+        public int Quantity { get; set; }
+        public ReviewComment reviewCommentInfo { get; set; }
+
         public OrderDetail()
         {
         }

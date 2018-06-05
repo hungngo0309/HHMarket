@@ -4,9 +4,9 @@ namespace shopping.Models
     public class ReviewComment
     {
 
-        public String CommentID { get; set; }
-        public String CommentContent { get; set; }
-        public String CommentDate { get; set; }
+        public string CommentID { get; set; }
+        public string CommentContent { get; set; }
+        public string CommentDate { get; set; }
         public int Rating { get; set; }
         public ReviewComment()
         {
