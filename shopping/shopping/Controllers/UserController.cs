@@ -45,5 +45,10 @@ namespace shopping.Controllers
             return View(viewModels);
         }
 
+        public IActionResult RegisterAccount() {
+            
+            return View();
+        }
+
     }
 }

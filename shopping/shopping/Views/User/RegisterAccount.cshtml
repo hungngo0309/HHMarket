@@ -1,10 +1,8 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
-ViewData["Title"] = "Login";
+    ViewData["Title"] = "Sign Up";
 }
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
@@ -13,6 +11,8 @@ ViewData["Title"] = "Login";
   <div class="signup__container">
   <div class="container__child signup__thumbnail">
     <div class="thumbnail__logo">
+     <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg class="logo__shape" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="30px"
      viewBox="0 0 483.688 483.688" >
@@ -43,6 +43,10 @@ ViewData["Title"] = "Login";
   <div class="container__child signup__form">
     <form action="#">
       <div class="form-group">
+        <label for="username">Username</label>
+        <input class="form-control" type="text" name="username" id="username" placeholder="David Beckham" required/>
+      </div>
+      <div class="form-group">
         <label for="email">Email</label>
         <input class="form-control" type="text" name="email" id="email" placeholder="david.backham@gmail.com" required />
       </div>
@@ -50,16 +54,17 @@ ViewData["Title"] = "Login";
         <label for="password">Password</label>
         <input class="form-control" type="password" name="password" id="password" placeholder="********" required />
       </div>
+      <div class="form-group">
+        <label for="passwordRepeat">Repeat Password</label>
+        <input class="form-control" type="password" name="passwordRepeat" id="passwordRepeat" placeholder="********" required />
+      </div>
       <div class="m-t-lg">
         <ul class="list-inline">
           <li>
             <input class="btn btn--form" type="submit" value="Register" />
           </li>
           <li>
-            <a class="signup__link" asp-area="" asp-controller="User" asp-action="RegisterAccount" >Register Account</a>
-          </li>
-             <li>
-             <a class="signup__link" href="#">Forgot password</a>
+            <a class="signup__link"  asp-area="" asp-controller="User" asp-action="Index">I am already a member</a>
           </li>
         </ul>
       </div>

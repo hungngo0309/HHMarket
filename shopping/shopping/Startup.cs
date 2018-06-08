@@ -44,6 +44,9 @@ namespace shopping
                     name: "UserListScreen",
                     template: "{controller=User}/{action=ShowUserList}");
                 routes.MapRoute(
+                    name: "RegisterAccount",
+                    template: "{controller=User}/{action=RegisterAccount}/{id?}");
+                routes.MapRoute(
                     name: "UserLoginScreen",
                     template: "{controller=User}/{action=Index}");
                 routes.MapRoute(
